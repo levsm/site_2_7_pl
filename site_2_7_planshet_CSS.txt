@@ -1,4 +1,6 @@
-﻿* {
+﻿https://levsm.github.io/site_2_7_pl/
+
+* {
     margin: 0;
     padding: 0;
     outline: none;

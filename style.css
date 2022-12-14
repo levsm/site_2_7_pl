@@ -21,7 +21,6 @@ body {
     width: 100%;
     max-width: 1146px;
 
-
 }
 
 .nav {
@@ -445,7 +444,6 @@ margin-top: 30px;
 
     .footer-flex {
         width: 100%;
-
     }
 
 /* banner */
@@ -499,7 +497,112 @@ margin-top: 30px;
 }
 
 
-
 @media (max-width: 767px) {
+
+    .nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-flex {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flex-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .adv-item {
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .adv-left {
+        text-align: center;
+        padding: 2%;
+        border-radius: 10px;
+        background: #132035;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .adv-rights {
+        width: 100%;
+    }
+
+    .main {
+            margin-top: 100px;
+    }
+
+    .main-dsc {
+        display: flex;
+        text-align: center;
+    }
+
+    .main-pic {
+        justify-content: center;
+    }
+
+    .main-txt {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-headding {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .client-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .client-pic {
+        justify-content: center;
+    }
+
+    .rectangle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rectangle-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-inform {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-about-lorem, .about-informacion-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-about-info {
+        width: 100%;
+        text-align: center;
+    }
 
 }
